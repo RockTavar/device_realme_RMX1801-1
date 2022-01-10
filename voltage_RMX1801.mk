@@ -19,7 +19,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Lineage stuff
-$(call inherit-product, vendor/fuse/config/common.mk)
+$(call inherit-product, vendor/voltage/config/common.mk)
 
 # Inherit from Realme RMX1801
 $(call inherit-product, device/realme/RMX1801/device.mk)
@@ -30,7 +30,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 # Boot Animation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
-PRODUCT_NAME := fuse_RMX1801
+PRODUCT_NAME := voltage_RMX1801
 PRODUCT_DEVICE := RMX1801
 PRODUCT_MANUFACTURER := OPPO
 PRODUCT_BRAND := oppo
